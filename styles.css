@@ -1,0 +1,195 @@
+
+*{
+    background-color: black;
+    color: white;
+    
+}
+ .navigation{
+    position: relative;
+    width: 100%;
+}
+ nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+   
+} 
+nav ul li{
+     list-style-type: none; 
+     display: inline-block; 
+     padding: 10px 25px;  
+} 
+ nav ul li a{
+    text-decoration: none;
+    color: rgb(212, 207, 207);
+    font-weight: bold;
+}
+.hme{
+    color: rgb(15, 220, 15);
+}  
+.btn{
+    background-color: rgb(57, 85, 57);
+    color: white;
+    text-decoration: none;
+    border: 2px solid rgb(15, 220, 15);
+    font-weight: bold;
+    padding: 20px 25px;
+     border-radius: 10px; 
+    /* transition: transform .4s; */
+    /* box-shadow: 5px 5px 10px 5px  rgb(221, 178, 67); */
+    /* animation: movedown 1s linear 1;
+    animation-delay: 2s; */
+}
+.main{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 10%;
+    margin-left: 20%;
+}
+.content h2{
+    font-size: 50px;
+    color:rgb(239, 223, 223);
+    margin-bottom: 20px;
+}
+.content h3{
+    /* color: white; */
+    font-size: 25px;
+    margin-bottom: 50px;
+    color: rgb(239, 223, 223);
+}
+.content .hc{
+    color:rgb(19, 137, 137);
+}
+
+.sec{
+    color: rgb(102, 158, 102);
+}
+span{
+    color:#9ea0a3;
+
+}
+.main2{
+    display: flex;
+}
+.main2 h4{
+    color: rgb(19, 137, 137);
+    margin-left: 40%;
+}
+.tables{
+    color: white;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  thead th {
+    text-align: left;
+    font-weight: bold;
+    border-bottom: 2px solid #ccc;
+    padding: 8px;
+  }
+  tbody td {
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+  }
+  tbody td:first-child {
+    font-weight: bold;
+  }
+  tbody td:nth-child(3) {
+    color: green;
+  }
+  tbody td:nth-child(3):before {
+    content: "+";
+  }
+  tbody td:nth-child(3):after {
+    content: "%";
+  }
+  tbody td:last-child a {
+    color: blue;
+    text-decoration: none;
+  }
+  tbody td:last-child a:hover {
+    text-decoration: underline;
+  }
+  .btn-lets-trade {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+
+  .boxes{
+    /* display: flex; */
+
+  }
+
+  .box1{
+    
+    min-height: 350px;
+    height: 250px;
+    width: 250px;
+    padding: 20px 35px;
+    border-radius: 20px;
+    border: solid 2px rgb(59, 59, 68);
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    background: linear-gradient(45deg, rgb(36, 36, 38), black);
+    
+}
+.box2{
+   
+     min-height: 350px; 
+    height: 250px;
+    width: 250px;
+    padding: 20px 35px;
+    border-radius: 20px;
+    border: solid 2px rgb(57, 77, 57);
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    background: linear-gradient(45deg, rgb(36, 36, 38), black);
+}
+.box3{
+  
+    justify-content: center;
+    align-items: center; 
+    min-height: 350px;
+    height: 250px;
+    width: 250px;
+    padding: 20px 35px;
+    border-radius: 20px;
+    border: solid 2px rgb(59, 59, 68);
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    background: linear-gradient(45deg, rgb(36, 36, 38), black);
+}
+.boxe{
+  display: flex;
+  position: relative; left:350px; bottom:550px;
+  
+}
+.btn2{
+  background-color: rgb(15, 220, 15);
+    color: white;
+    text-decoration: none;
+    border: 2px solid rgb(15, 220, 15);
+    font-weight: bold;
+    padding: 20px 25px;
+     border-radius: 10px; 
+}
+.newbox{
+  display: flex;
+}
